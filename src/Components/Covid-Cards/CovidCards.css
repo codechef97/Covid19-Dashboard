@@ -1,0 +1,56 @@
+
+.container-1{
+    display:flex;
+    justify-content: safe;
+    width: 60%;
+    margin: auto;
+}
+
+.box-1{
+    padding: 1%;
+    flex: 1;    border: 1px #000000 solid;
+    border-radius: 8px !important;
+    margin: 0 2% !important;
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.box-2{
+    padding: 1%;
+    flex: 1;
+    border: 1px #000000 solid;
+   
+    border-radius: 8px !important;
+    margin: 0 2% !important;
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+.box-3{
+    padding: 1%;
+    flex: 1;
+    border: 1px #000000 solid;
+ 
+    border-radius: 8px !important;
+    margin: 0 2% !important;
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.infectedBold {
+    font-weight: bold !important;
+    color: rgba(255, 0, 0, 0.5) !important;
+  }
+
+.recoveredBold {
+    font-weight: bold !important;
+    color: rgba(0, 255, 0, 0.5) !important;
+}
+.deathsBold{
+    font-weight: bold !important;
+    color:rgba(0, 0, 255, 0.5)!important;
+
+}
+
+@media (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+    }
+  }
+

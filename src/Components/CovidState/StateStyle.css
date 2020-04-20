@@ -1,0 +1,12 @@
+.StateStyle{
+    text-align: center;
+    border: 1px  Solid #ccc;
+    box-shadow:0 2px 3px  #eee;
+    padding : 16px;
+    width : 60%;
+    margin : 16px auto;
+    background-color: salmon;
+
+}
+
+
