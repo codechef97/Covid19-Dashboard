@@ -36,8 +36,6 @@ class CovidData extends Component {
 
               <center> <h4> {item.loc}</h4></center>
               <CovidCards Confirmed={item.totalConfirmed} Recovered={item.discharged} Deaths={item.deaths} />
-              <br />
-
             </div>)))
         }
       </div>

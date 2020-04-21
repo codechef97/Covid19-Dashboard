@@ -15,6 +15,8 @@ class App extends Component{
   return(
   <div>
   <CovidState confirmed={this.states[0].confirmed} deaths={this.states[0].deaths} recovered={this.states[0].recovered} />
+  <br />
+  <h3 align='Center'>StateWise</h3>
   <CovidData />
   </div>
   )

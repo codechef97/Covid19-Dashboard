@@ -7,14 +7,7 @@ import './StateStyle.css';
 
 const name = (props) => {
     
-    const [states,setStates] = useState('');
-    const [confirmed,setConfirmed] = useState('');
-    const [Deaths, setDeaths] = useState('');
-    const [Recovered, setRecovered] = useState('');
-
-    useEffect(()=>{
-            
-    });
+    
     return (
         <div>
             <div className='StateStyle'>
